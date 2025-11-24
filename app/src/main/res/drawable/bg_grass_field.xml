@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🌾 Grass Field Background -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sky gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#81D4FA"
+                android:endColor="#B3E5FC"
+                android:type="linear"/>
+        </shape>
+    </item>
+    
+    <!-- Grass field at bottom -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#7CB342"
+                android:endColor="#689F38"
+                android:type="linear"/>
+            <size android:height="80dp"/>
+        </shape>
+    </item>
+    
+    <!-- Grass texture overlay -->
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="#10000000"/>
+            <size android:height="80dp"/>
+        </shape>
+    </item>
+</layer-list>
+

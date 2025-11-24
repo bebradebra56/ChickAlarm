@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🌾 Hay Bale Icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Hay Bale Rectangle -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M4,10h16v8H4V10z"/>
+    
+    <!-- Hay Texture Lines -->
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="1"
+        android:pathData="M6,11v6M9,11v6M12,11v6M15,11v6M18,11v6"/>
+    
+    <!-- Hay Bale Binding -->
+    <path
+        android:strokeColor="#795548"
+        android:strokeWidth="2"
+        android:pathData="M4,13h16M4,15h16"/>
+</vector>
+

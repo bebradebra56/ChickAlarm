@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🐓 ChickAlarm Background - Farm Scene -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sky with sunrise gradient -->
+    <path android:pathData="M0,0h108v108H0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:startColor="#FF6F00"
+                android:centerColor="#FFA726"
+                android:endColor="#FFD54F"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    
+    <!-- Sun circle -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M54,20a12,12 0 1,0 0,24 12,12 0 1,0 0,-24"/>
+    
+    <!-- Rolling hills -->
+    <path
+        android:fillColor="#7CB342"
+        android:pathData="M0,80 Q27,65 54,70 Q81,75 108,65 L108,108 L0,108 Z"/>
+    
+    <!-- Darker hill layer -->
+    <path
+        android:fillColor="#689F38"
+        android:pathData="M0,85 Q27,75 54,80 Q81,85 108,75 L108,108 L0,108 Z"/>
+    
+    <!-- Barn silhouette -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M30,70 L35,60 L45,60 L50,70 L50,90 L30,90 Z"/>
+    
+    <!-- Barn roof -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M28,70 L40,55 L52,70 Z"/>
+    
+    <!-- Barn door -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M37,75 L43,75 L43,90 L37,90 Z"/>
+    
+    <!-- Fence posts -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M15,82h3v15h-3z M22,82h3v15h-3z M58,82h3v15h-3z M65,82h3v15h-3z M72,82h3v15h-3z"/>
+    
+    <!-- Fence horizontal rails -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M12,86h18v2h-18z M12,92h18v2h-18z M55,86h25v2h-25z M55,92h25v2h-25z"/>
+    
+    <!-- Clouds -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M75,30c0,-3 2,-5 5,-5c1,0,2,0.3,2.8,0.8C83.5,24,85.5,23,88,23c3.5,0,6.5,2.5,7,6c2,0.5,3.5,2,3.5,4.5c0,2.7-2.3,5-5,5H78c-2.7,0-5-2.3-5-5z"/>
+    
+    <!-- Small decorative chickens -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M85,75c0,0.8-0.7,1.5-1.5,1.5S82,75.8,82,75s0.7-1.5,1.5-1.5S85,74.2,85,75z M83.5,76.5v2h0.5v-2z"/>
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M92,78c0,0.8-0.7,1.5-1.5,1.5S89,78.8,89,78s0.7-1.5,1.5-1.5S92,77.2,92,78z M90.5,79.5v2h0.5v-2z"/>
+</vector>

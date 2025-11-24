@@ -1,0 +1,49 @@
+<resources>
+    <!-- 🐔 ChickAlarm - Wake up with the roosters! -->
+    <string name="app_name">Chick Alarm</string>
+    
+    <!-- Main Screen Titles -->
+    <string name="roosters_tab">🐓 Roosters</string>
+    <string name="roost_tab">🌙 Roost</string>
+    <string name="sunrise_tab">🌅 Sunrise</string>
+    <string name="stats_tab">🏆 Stats</string>
+    
+    <!-- Alarm Screen -->
+    <string name="no_alarms_title">The coop is quiet… 🐣</string>
+    <string name="no_alarms_subtitle">Tap + to wake up your first chicken!</string>
+    <string name="add_alarm">🐓 Add Rooster</string>
+    <string name="alarm_enabled">Rooster ready to crow</string>
+    <string name="alarm_disabled">Rooster is sleeping</string>
+    
+    <!-- Sleep Screen -->
+    <string name="roosting_time">🌙 Roosting Time</string>
+    <string name="chickens_sleeping">🐔 Chickens are sleeping</string>
+    <string name="ready_for_roost">🛏️ Ready for the roost</string>
+    <string name="close_coop">🌛 Close the coop</string>
+    <string name="morning_has_come">🌅 Morning has come</string>
+    
+    <!-- Morning Screen -->
+    <string name="farm_chores">🥚 Today\'s Farm Chores</string>
+    <string name="chickens_busy">Chickens are busy! 🐔</string>
+    <string name="wake_the_flock">Time to wake the flock! 🐓</string>
+    <string name="open_the_coop">🌄 Open the Coop!</string>
+    <string name="collect_eggs">🎉 Collect Fresh Eggs!</string>
+    
+    <!-- Stats Screen -->
+    <string name="coop_statistics">🏆 Coop Statistics</string>
+    <string name="no_eggs_counted">No eggs counted yet 🥚</string>
+    <string name="farm_achievements">🏅 Farm Achievements</string>
+    <string name="golden_egg_day">Golden Egg Day!</string>
+    
+    <!-- Common Chicken Terms -->
+    <string name="rooster_crow">Cock-a-doodle-doo!</string>
+    <string name="chicken_cluck">Cluck cluck!</string>
+    <string name="egg_hatched">Egg hatched!</string>
+    <string name="feathers_ruffled">Feathers ruffled!</string>
+    
+    <!-- Achievements -->
+    <string name="early_bird">🐦 Early Bird</string>
+    <string name="golden_egg">🥇 Golden Egg</string>
+    <string name="farm_master">👨‍🌾 Farm Master</string>
+    <string name="rooster_king">👑 Rooster King</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🐓 Rooster Achievement Badge Shape -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Badge background circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FDD835"/>
+            <size
+                android:width="80dp"
+                android:height="80dp"/>
+        </shape>
+    </item>
+    
+    <!-- Badge border -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="4dp"
+                android:color="#FF9800"/>
+            <size
+                android:width="80dp"
+                android:height="80dp"/>
+        </shape>
+    </item>
+    
+    <!-- Inner circle for icon -->
+    <item
+        android:top="15dp"
+        android:bottom="15dp"
+        android:left="15dp"
+        android:right="15dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFDE7"/>
+            <stroke
+                android:width="2dp"
+                android:color="#FFD700"/>
+        </shape>
+    </item>
+</layer-list>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chick_alarm_graph"
+    app:startDestination="@id/chickAlarmLoadFragment">
+
+    <fragment
+        android:id="@+id/chickAlarmLoadFragment"
+        android:name="com.alra.sof.chickin.regoif.presentation.ui.load.ChickAlarmLoadFragment"
+        android:label="ChickAlarmLoadFragment" >
+        <action
+            android:id="@+id/action_chickAlarmLoadFragment_to_chickAlarmV"
+            app:destination="@id/chickAlarmV"
+            app:popUpTo="@id/chick_alarm_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chickAlarmV"
+        android:name="com.alra.sof.chickin.regoif.presentation.ui.view.ChickAlarmV"
+        android:label="ChickAlarmV" />
+</navigation>

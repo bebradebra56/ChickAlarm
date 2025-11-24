@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🥇 Golden Egg Achievement Icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Golden egg shape -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,3c-3.5,0-6,3.5-6,8c0,4.5,2.5,9,6,9s6-4.5,6-9C18,6.5,15.5,3,12,3z"/>
+    
+    <!-- Shine effect -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M10,5c1-1,2-1.5,2.5-1.5c0.5,0,0.5,0.3,0.5,0.8c0,1-1,2-2,3C10,6.8,9.5,6,10,5z"/>
+    
+    <!-- Star sparkle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M15,8l0.5,1.5L17,10l-1.5,0.5L15,12l-0.5-1.5L13,10l1.5-0.5z"/>
+    
+    <!-- Trophy stand effect -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M10,20h4v1.5h-4V20z"/>
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M9,21.5h6v0.5H9V21.5z"/>
+</vector>
+

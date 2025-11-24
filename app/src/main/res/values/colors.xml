@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 🐔 Chicken Alarm Color Palette - Main Colors -->
+    <color name="chicken_yellow">#FFFDD835</color>
+    <color name="chicken_yellow_light">#FFFFEB3B</color>
+    <color name="chicken_golden">#FFFFD700</color>
+    <color name="egg_white">#FFFFFDE7</color>
+    <color name="egg_shell">#FFFFFAF0</color>
+    <color name="creamy_egg">#FFFFF8DC</color>
+    
+    <!-- 🧡 Chicken Body Colors -->
+    <color name="chicken_orange">#FFFF9800</color>
+    <color name="chicken_orange_light">#FFFFB74D</color>
+    <color name="beak_yellow">#FFFFCA28</color>
+    <color name="comb_red">#FFE53935</color>
+    <color name="wattle_red">#FFD32F2F</color>
+    <color name="feather_brown">#FF8D6E63</color>
+    <color name="feather_light">#FFA1887F</color>
+    
+    <!-- 🏚️ Farm & Barn Colors -->
+    <color name="barn_wood">#FF795548</color>
+    <color name="barn_red">#FFB71C1C</color>
+    <color name="barn_dark">#FF5D4037</color>
+    <color name="light_nest">#FFFFFBF0</color>
+    <color name="hay_gold">#FFD4AF37</color>
+    <color name="straw_yellow">#FFFFE082</color>
+    <color name="wheat_gold">#FFDEB887</color>
+    
+    <!-- 🌾 Farm Nature Colors -->
+    <color name="farm_green">#FF689F38</color>
+    <color name="grass_green">#FF7CB342</color>
+    <color name="fresh_grass">#FF66BB6A</color>
+    <color name="morning_dew">#FFE8F5E9</color>
+    
+    <!-- 🌙 Night Coop Colors -->
+    <color name="night_coop">#FF1A1410</color>
+    <color name="coop_shadow">#FF2D2416</color>
+    <color name="dark_nest">#FF1C1410</color>
+    <color name="dark_straw">#FF2A1F1A</color>
+    <color name="moonlight_yellow">#FFFFD54F</color>
+    <color name="star_glow">#FFFFF9C4</color>
+    <color name="midnight_blue">#FF0D1B2A</color>
+    
+    <!-- ☀️ Time of Day Colors -->
+    <color name="sunrise_orange">#FFFF9800</color>
+    <color name="morning_gold">#FFFFE57F</color>
+    <color name="dawn_pink">#FFFFCDD2</color>
+    <color name="noon_sky">#FF81D4FA</color>
+    <color name="dusk_purple">#FFCE93D8</color>
+    
+    <!-- 🎯 Status & Achievement Colors -->
+    <color name="golden_egg">#FFFFD700</color>
+    <color name="hen_success">#FF4CAF50</color>
+    <color name="fox_danger">#FFEF5350</color>
+    
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

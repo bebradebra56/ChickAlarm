@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 🐣 Hatching Chick Icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Bottom egg shell -->
+    <path
+        android:fillColor="#FFFDE7"
+        android:strokeColor="#FDD835"
+        android:strokeWidth="1"
+        android:pathData="M7,14c0,0,1,3,2,4c1,1,3,2,3,2s2-1,3-2c1-1,2-4,2-4L7,14z"/>
+    
+    <!-- Cracked egg top -->
+    <path
+        android:fillColor="#FFFDE7"
+        android:strokeColor="#FDD835"
+        android:strokeWidth="1"
+        android:pathData="M8,13l1-2l1.5,1L12,10l1.5,2l1.5-1l1,2"/>
+    
+    <!-- Baby chick -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M12,11c-1.5,0-2.5,1-2.5,2.5s1,2.5,2.5,2.5s2.5-1,2.5-2.5S13.5,11,12,11z"/>
+    
+    <!-- Chick beak -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M10,13l-1,0.5L10,14z"/>
+    
+    <!-- Chick eye -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.5,12.5c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5s-0.5-0.2-0.5-0.5S11.2,12.5,11.5,12.5z"/>
+    
+    <!-- Wing -->
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M13.5,14c0.5,0.5,1,0.8,1,0.8l-0.5,0.5c-0.5-0.3-1-0.8-1-0.8L13.5,14z"/>
+</vector>
+
