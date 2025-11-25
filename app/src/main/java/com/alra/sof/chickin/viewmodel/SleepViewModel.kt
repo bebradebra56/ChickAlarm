@@ -89,7 +89,7 @@ class SleepViewModel(application: Application) : AndroidViewModel(application) {
                 repository.updateSession(completedSession)
                 _currentSession.value = null
                 _isTracking.value = false
-                SleepTrackingService.stopTracking(context)
+//                SleepTrackingService.stopTracking(context)
             }
         }
     }

@@ -12,7 +12,6 @@
 <!--    <uses-permission android:name="android.permission.VIBRATE" />-->
 <!--    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />-->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
 
     <application
         android:name=".regoif.presentation.app.ChickAlarmApplication"
@@ -52,16 +51,16 @@
             android:taskAffinity=""
             android:theme="@style/Theme.ChickAlarm"
             android:turnScreenOn="true" /> <!-- Alarm Service -->
-        <service
-            android:name=".alarm.AlarmService"
-            android:enabled="true"
-            android:exported="false"
-            android:foregroundServiceType="specialUse" /> <!-- Sleep Tracking Service -->
-        <service
-            android:name=".sleep.SleepTrackingService"
-            android:enabled="true"
-            android:exported="false"
-            android:foregroundServiceType="specialUse" /> <!-- Alarm Receiver -->
+<!--        <service-->
+<!--            android:name=".alarm.AlarmService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false"-->
+<!--            android:foregroundServiceType="specialUse" /> &lt;!&ndash; Sleep Tracking Service &ndash;&gt;-->
+<!--        <service-->
+<!--            android:name=".sleep.SleepTrackingService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="false"-->
+<!--            android:foregroundServiceType="specialUse" /> &lt;!&ndash; Alarm Receiver &ndash;&gt;-->
         <receiver
             android:name=".alarm.AlarmReceiver"
             android:enabled="true"
